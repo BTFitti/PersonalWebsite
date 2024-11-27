@@ -1,5 +1,57 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.hero {
+  background-image: url("https://i.pinimg.com/originals/2a/06/c6/2a06c6e5926ea6a4cc7131e6a99f5deb.jpg");
+  background-size: cover;
+  background-position: center;
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center; */
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+}
+.links a {
+  font-size: 65px;
+  font-style: italic;
+  font-family: "Bebas Neue";
+  color: black;
+  text-decoration: none;
+}
+.links a:hover {
+  animation: tiltBounce .20s ease;
+  animation-fill-mode: forwards;
+}
+.links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 40%;
+    left: calc(100% - 63%);
+  
+}
+a{
+   margin-bottom: 22px;
+   padding-right: 15%;
+}
+.about{
+    width: 100%;
+}
+
+@keyframes tiltBounce {
+  0% {
+    transform: scale(1) rotate(-7deg);
+  }
+  50% {
+    transform: scale(1.5) rotate(-7deg);
+  }
+  100% {
+    transform: scale(1.15) rotate(-7deg);
+  }
 }
