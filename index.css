@@ -86,15 +86,63 @@ a {
   font-size: 35px;
   margin-bottom: 20px;
 }
-.projects{
-  padding: 100px 0;
+.projects {
+  background-color: #5c5c5c;
+  padding: 80px 0;
   width: 100%;
   display: flex;
   flex-direction: column;
-  align-content: center;
+}
+.projects h2 {
+  font-family: "Josefin Sans", sans-serif;
+  text-align: center;
+  font-size: 52px;
+  margin-bottom: 70px;
+  margin-top: 20px;
+  
+}
+.project-list {
+  width: 100%;
+  margin-bottom: 8px;
+  display: flex;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
+}
+.projects a{
+  margin: 0 auto;
+  color: black;
+  padding: 0;
+  font-size: 20px;
+  font-family: "Josefin Sans", sans-serif;
+  text-decoration: none;
+  text-align: center;
+  margin-bottom: 40px;
+ 
 }
 
+.projects img {
+  width: 600px;
+  margin-left: 0.5%;
+  margin-right: 0.5%;
+  opacity: 0.8;
+  transition: 0.9s;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+h2 .last a{
+  font-size: 52px;
+}
+.last a:hover{
+  color: #ff0000;
+  cursor: help;
+  transition: .9s ease;
+}
+
+.projects img:hover{
+  opacity: 1;
+}
 @keyframes tiltBounce {
   0% {
     transform: scale(1) rotate(-7deg);
