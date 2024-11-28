@@ -2,10 +2,10 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: "Josefin Sans", sans-serif;
 }
 
-html{
+html {
   scroll-behavior: smooth;
 }
 
@@ -47,6 +47,7 @@ a {
   padding: 100px 0px;
 }
 .main {
+  height: 100vh;
   max-width: 95%;
   width: 1130px;
   margin: 0 auto;
@@ -56,7 +57,7 @@ a {
 }
 .main img {
   height: auto;
-  width: 430px;
+  width: 300px;
   border-radius: 8px;
 }
 .aboutTxt {
@@ -109,7 +110,7 @@ a {
   justify-content: center;
   align-items: center;
 }
-.projects a{
+.projects a {
   margin: 0 auto;
   color: black;
   padding: 0;
@@ -117,7 +118,6 @@ a {
   text-decoration: none;
   text-align: center;
   margin-bottom: 40px;
- 
 }
 
 .projects img {
@@ -129,40 +129,38 @@ a {
   cursor: pointer;
   border-radius: 8px;
 }
-.projects p{
+.projects p {
   font-style: italic;
   font-size: 20px;
   color: #fff;
   margin-bottom: 20px;
 }
 
-h2 .last a{
+h2 .last a {
   font-size: 52px;
 }
-footer{
+footer {
   width: 100%;
-  background: linear-gradient(to top, rgb(0, 0, 0),  #3b3b3b);
+  background: linear-gradient(to top, rgb(0, 0, 0), #3b3b3b);
   height: 300px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
-footer p{
+footer p {
   font-size: 45px;
   margin-bottom: 20px;
   color: #dfdcdc;
   font-weight: bold;
-
 }
 
-.social{
+.social {
   display: flex;
   align-items: center;
   justify-content: center;
-
 }
-.social i{
+.social i {
   width: 45px;
   height: 45px;
   display: flex;
@@ -175,21 +173,21 @@ footer p{
   text-decoration: none;
   font-size: 25px;
 }
-.social a{
+.social a {
   text-decoration: none;
 }
-.social a:hover{
+.social a:hover {
   transform: scale(1.3);
-  transition: .3s;
+  transition: 0.3s;
 }
 
-.last a:hover{
+.last a:hover {
   color: #ff0000;
   cursor: help;
-  transition: .9s ease;
+  transition: 0.9s ease;
 }
 
-.projects img:hover{
+.projects img:hover {
   opacity: 1;
 }
 @keyframes tiltBounce {
@@ -202,4 +200,62 @@ footer p{
   100% {
     transform: scale(1.15) rotate(-7deg);
   }
+}
+@media (max-width: 600px) {
+  .links {
+    top: 40%;
+    left: calc(100% - 93%);
+  }
+  .links a {
+    font-size: 45px;
+  }
+  .main img {
+    position:relative;
+    left: 25%;
+    width: 45%;
+  }
+  .main {
+    max-width: 100%;
+    display: block;
+  }
+
+  .aboutTxt {
+    padding: 10px 10px;
+    max-width: 100%;
+  }
+  .aboutTxt h1 {
+    font-size: 40px;
+  }
+  .aboutTxt span {
+    color: red;
+    font-size: 35px;
+    font-style: italic;
+  }
+  .aboutTxt p {
+    max-width: 100%;
+    color: white;
+    font-size: 20px;
+  }
+  .aboutTxt h2 {
+    color: #fff;
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+  .projects p{
+    font-size: 15px;
+    
+  }
+  .projects h2{
+    font-size: 40px;
+    
+  }
+  .projects span a{
+    font-size: 40px;
+  }
+  .projects img{
+    width: 100%;
+    
+    padding: 0 20px;
+  }
+ 
 }
