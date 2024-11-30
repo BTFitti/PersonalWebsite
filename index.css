@@ -43,14 +43,16 @@ a {
 }
 .about {
   width: 100%;
+ 
   background-color: #000000;
-  padding: 100px 0px;
+  padding: 50px 0px;
 }
 .main {
+  margin: 0 auto;
   height: 100vh;
   max-width: 95%;
   width: 1130px;
-  margin: 0 auto;
+  
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -59,6 +61,7 @@ a {
   height: auto;
   width: 300px;
   border-radius: 8px;
+  
 }
 .aboutTxt {
   width: 650px;
@@ -74,12 +77,28 @@ a {
   color: red;
   font-style: italic;
 }
+.aboutTxt span.react{
+  color: green;
+}
+.aboutTxt span.type{
+  color: #3178c6;;
+}
+.aboutTxt span.tail{
+  color: rgb(56, 189, 248);
+}
+.about p a{
+  padding: 0;
+  font-size: 22px;
+  text-decoration: none;
+ transition: .9s ease;
+  color: #fff;
+}
 .aboutTxt p {
   color: white;
   letter-spacing: 1px;
   line-height: 28px;
   font-size: 22px;
-  margin-bottom: 45px;
+  margin-bottom: 15px;
   line-height: 30px;
 }
 .aboutTxt h2 {
@@ -95,12 +114,17 @@ a {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+ 
 }
 .projects h2 {
   text-align: center;
   font-size: 52px;
   margin-bottom: 70px;
   margin-top: 20px;
+  
+}
+.projects a {
+  transition: .9s ease-out;
 }
 .project-list {
   width: 100%;
@@ -180,11 +204,13 @@ footer p {
   transform: scale(1.3);
   transition: 0.3s;
 }
-
+.about p a:hover{
+  color: #ff0000;
+  cursor: help;
+}
 .last a:hover {
   color: #ff0000;
   cursor: help;
-  transition: 0.9s ease;
 }
 
 .projects img:hover {
@@ -218,6 +244,9 @@ footer p {
     max-width: 100%;
     display: block;
   }
+  .about{
+    padding-top: 50px;
+  }
 
   .aboutTxt {
     padding: 10px 10px;
@@ -231,10 +260,16 @@ footer p {
     font-size: 35px;
     font-style: italic;
   }
+  .aboutTxt .react,
+  .aboutTxt .type,
+  .aboutTxt .tail{
+    font-size: 20px;
+  }
   .aboutTxt p {
     max-width: 100%;
     color: white;
     font-size: 20px;
+    margin: 10px 10px;
   }
   .aboutTxt h2 {
     color: #fff;
