@@ -224,13 +224,13 @@ footer p {
     transform: scale(1.15) rotate(-7deg);
   }
 }
-@media (max-width: 600px) {
+@media  (max-width: 600px) {
   .links {
     top: 40%;
-    left: calc(100% - 93%);
+    left: calc(100% - 89%);
   }
   .links a {
-    font-size: 45px;
+    font-size: 40px;
   }
   .main img {
     position: relative;
@@ -241,8 +241,6 @@ footer p {
     max-width: 100%;
     display: block;
   }
- 
-
   .aboutTxt {
     padding: 10px;
     max-width: 100%;
@@ -271,8 +269,11 @@ footer p {
     font-size: 30px;
     margin-bottom: 20px;
   }
+  .aboutTxt span a{
+    font-size: 20px;
+  }
   .projects p {
-    font-size: 15px;
+    font-size: 18px;
   }
   .projects h2 {
     font-size: 40px;

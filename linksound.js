@@ -1,9 +1,11 @@
+let audio = document.getElementsByTagName('audio');
 let aboutsound = document.querySelector('.aboutsound');
 let projectssound = document.querySelector('.projectssound');
 let contactssound = document.querySelector('.contactssound')
-let audio = document.getElementsByTagName('audio');
+
 audio[0].volume = 0.4;
 audio[1].volume = 0.4;
+
 aboutsound.addEventListener('mouseenter',()=>{
     audio[0].play()
 })
