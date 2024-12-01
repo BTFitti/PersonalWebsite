@@ -1,6 +1,8 @@
 # Personal Website
 ###  I made the perfect combination of things i love the most: Programming and Persona 5 Royal. 
-<p> Developing this portfolio was such a good experience of making mistakes, learning from them, being able to search for improvements for my application, learn new things and use a lot of my creativity to develop something that im proud of.  </p>
+<p> Developing this portfolio was such a good experience of making mistakes, learning from them, being able to search for improvements for my application, learn new things and use a lot of my creativity to develop something that im proud of. </p>
+
+### If you are a Persona fan like me, i've hidden two secrets in this website, hope you find it ^^
 
   
 https://github.com/user-attachments/assets/f48ed173-0f8d-4d7e-ac44-6c256f447350
