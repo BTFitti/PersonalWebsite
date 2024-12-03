@@ -212,7 +212,6 @@ a {
   width: 100%;
   margin-bottom: 8px;
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
@@ -227,13 +226,15 @@ a {
 }
 
 .project-list img {
-  width: 600px;
+  width: 100%;
+  max-width: 500px;
   margin-left: 0.5%;
   margin-right: 0.5%;
   opacity: 0.8;
   transition: 0.9s;
+  padding: 0 5px 0 5px;
   cursor: pointer;
-  border-radius: 8px;
+  border-radius: 10px;
 }
 .projects p {
   font-style: italic;
@@ -371,6 +372,9 @@ footer p {
   }
   .aboutTxt span a {
     font-size: 20px;
+  }
+  .project-list{
+    flex-direction: column;
   }
   .projects p {
     font-size: 18px;
