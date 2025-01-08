@@ -200,7 +200,6 @@ a {
   justify-content: center;
 }
 .projects h2 {
-  text-align: center;
   font-size: 52px;
   margin-bottom: 70px;
   margin-top: 20px;
@@ -222,10 +221,10 @@ a {
   font-size: 20px;
   text-decoration: none;
   text-align: center;
-  margin-bottom: 40px;
+  
 }
 
-.project-list img {
+.projects img {
   width: 100%;
   max-width: 500px;
   margin-left: 0.5%;
@@ -235,6 +234,7 @@ a {
   padding: 0 5px 0 5px;
   cursor: pointer;
   border-radius: 10px;
+  margin-bottom: 10%;
 }
 .projects p {
   font-style: italic;

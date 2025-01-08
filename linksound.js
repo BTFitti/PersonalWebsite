@@ -16,6 +16,7 @@ let hamMenuContacts = document.querySelector(".hamcontacts");
 let image1 = document.getElementById("im1");
 let image2 = document.getElementById("im2");
 let image3 = document.getElementById("im3");
+let image4 = document.getElementById("im4")
 image1.addEventListener("click", () => {
   audio[4].play();
 });
@@ -23,6 +24,9 @@ image2.addEventListener("click", () => {
   audio[4].play();
 });
 image3.addEventListener("click", () => {
+  audio[4].play();
+});
+image4.addEventListener("click", () => {
   audio[4].play();
 });
 
