@@ -24,12 +24,11 @@
   gap: 12px;
 }
 
- 
- .voltar-home{
+a {
   background-color: red;
   padding: 10px 20px;
   border-radius: 10px;
-   
+
   margin-top: 50px;
 
   font-size: 40px;
@@ -160,7 +159,11 @@ textarea:focus {
   i.fas.fa-arrow-right {
     display: none;
   }
+  a {
+    margin-top: 0px;
 
+    font-size: 20px;
+  }
   .form input:hover,
   .form input:focus,
   .form textarea:hover,
