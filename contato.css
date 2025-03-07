@@ -5,12 +5,16 @@
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
+body{
+
+    background-color: rgb(72, 72, 73);
+}
 .contato {
   background: linear-gradient(to top, rgb(72, 72, 73), rgb(131, 45, 34));
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 100vh;
+  min-height: 100vh;
   width: 100%;
   gap: 2rem;
 }
@@ -28,7 +32,24 @@ p{
     font-size: 3rem;
     margin-bottom: 2rem;
 }
+.socials a {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+    background-color: red;
+    padding: 10px 10px;
+    border-radius: 10px;
+  
+    margin-top: 20px;
+  
+    font-size: 40px;
+    text-decoration: none;
+    color: #fff;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.2);
+  
+  }
 a {
+   
   background-color: red;
   padding: 10px 20px;
   border-radius: 10px;
@@ -145,12 +166,16 @@ textarea:focus {
   box-shadow: 0 0 0 3px black;
 }
 
+
 @keyframes pulse {
   50% {
     opacity: 0.5;
   }
 }
 @media (max-width: 768px) {
+    .socials{
+        display: flex;gap: 20px;
+    }
   .contato {
     flex-direction: column;
     gap: 10px;
@@ -181,7 +206,7 @@ textarea:focus {
   }
   a {
     margin-top: 0px;
-
+  
     font-size: 20px;
   }
   .form input:hover,
