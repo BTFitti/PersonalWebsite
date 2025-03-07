@@ -207,6 +207,7 @@ a {
 .projects a {
   transition: 0.9s ease-out;
 }
+
 .project-list {
   width: 80%;
   grid-gap: 20px; 
@@ -376,6 +377,8 @@ footer p {
   }
   .project-list{
     flex-direction: column;
+    display: flex;
+    width: 100%;
   }
   .projects p {
     font-size: 18px;
