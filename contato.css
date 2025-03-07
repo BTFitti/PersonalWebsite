@@ -23,7 +23,11 @@
   flex-direction: column;
   gap: 12px;
 }
-
+p{
+    color: #fff;
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
 a {
   background-color: red;
   padding: 10px 20px;
