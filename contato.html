@@ -12,6 +12,7 @@
     <link rel="icon" href="https://preview.redd.it/whos-calling-card-was-the-best-or-worst-v0-j6z5nr3fvv0d1.jpeg?auto=webp&s=d625040b234c37b598d19040b9978d2a73472218">
   </head>
   <body>
+
     <div class="contato">
       <div class="div-h1">
         <h1>Get in touch!</h1>
@@ -19,7 +20,8 @@
 
         <a href="index.html">Back to home</a>
       </div>
-      <div class="form">
+
+      <div id="meuForm" class="form">
         <form
           action="https://formsubmit.co/1b0d4c16b50669c20adfc92a56608ac3"
           method="POST"
@@ -29,9 +31,12 @@
 
           <label for="email">Email</label>
           <input type="email" name="email" id="email" required />
+
           <label for="message">Message</label>
-          <textarea name="message" id="message"></textarea>
-          <button type="submit">Send</button>
+          <textarea name="message" id="message" required></textarea>
+
+          <button id="botaoEnviar" type="submit">Send</button>
+
           <input type="hidden" name="_next" value="https://personal-website-fitti.vercel.app/obrigado.html">
           <input type="hidden" name="_subject" value="Novo contato">
         </form>
